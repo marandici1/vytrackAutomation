@@ -1,5 +1,6 @@
 package com.vytrack.tests;
 
+import com.vytrack.tests.TestBase.TestBase;
 import com.vytrack.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -13,7 +14,8 @@ import org.testng.annotations.Test;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class UserStory7 {
+public class UserStory7 extends TestBase {
+/*
     WebDriver driver ;
 
     @BeforeMethod
@@ -22,6 +24,8 @@ public class UserStory7 {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10 , TimeUnit.SECONDS);
     }
+
+ */
 
     @Test
     public void US7 () throws InterruptedException {
