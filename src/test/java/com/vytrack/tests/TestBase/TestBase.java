@@ -7,8 +7,8 @@ import org.testng.annotations.BeforeMethod;
 
 import java.util.concurrent.TimeUnit;
 
-public class TestBase {
-    private static WebDriver driver;
+public abstract class TestBase {
+    protected WebDriver driver;
     @BeforeMethod
     public void SetUp(){
         driver= WebDriverFactory.getDriver("Chrome");
